@@ -12,7 +12,7 @@ function yourAnimal() {
 function add2(n) {
   const two = 2;
   return n + two;
-  
+
 }
 
 var funkyFunction = function() {
@@ -22,8 +22,4 @@ var funkyFunction = function() {
 }
 
 
-// NOTE: you only need to modify the code below this line.
-function theFunk () = funkyFunction() {
-  var theFunk =funkyFunction; 
-  return 
-}
+var theFunk = funkyFunction ()()
